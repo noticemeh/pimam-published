@@ -1,0 +1,116 @@
+﻿/*.wrapper .content-wrapper {
+    min-height: calc(100vh - calc(3.5rem + 1px) - calc(3.5rem + 1px) - calc(7.125rem + 1px) - calc(2.75rem + 1px)) !important;
+    background-color: #e6e8f0;
+}
+
+.control-sidebar {
+    bottom: calc(3.5rem + 2px) !important;
+    position: absolute;
+    top: calc(calc(3.5rem + 1px) + calc(7.125rem + 1px) + calc(2.75rem + 1px)) !important;
+    z-index: 1031;
+}*/
+
+.content .container {
+    padding-top: 20px !important;
+}
+
+input.input-validation-error {
+    border-color: red;
+}
+
+select.input-validation-error {
+    border-color: red;
+}
+
+textarea.input-validation-error {
+    border-color: red;
+}
+
+.results_table td {
+    margin-right: 20px !important;
+}
+
+.no-click {
+    margin-right: 5px !important;
+}
+
+.font-10 {
+    font-size: 10px !important;
+}
+
+.cursor-pointer {
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+.cursor-pointer:hover {
+    opacity: 1;
+}
+
+.fa-eye, .fa-eye-slash, .cursor-pointer {
+    cursor: pointer;
+}
+
+td {
+    padding: 8px !important;
+}
+
+table .results_table td {
+    padding: 0px !important;
+}
+
+.custom-table td {
+    vertical-align: middle !important;
+}
+
+@media (min-width: 768px) {
+    body:not(.sidebar-mini-md) .parent {
+        transition: margin-left 0.3s ease-in-out;
+        margin-left: 250px;
+    }
+}
+
+.sidebar-mini.sidebar-collapse .parent {
+    margin-left: 4.6rem;
+}
+
+.sidebar-mini.sidebar-collapse.sidebar-closed .parent {
+    margin-left: 0 !important;
+}
+
+@media (max-width: 991.98px) {
+    body:not(.sidebar-mini-md) .parent {
+        margin-left: 0;
+    }
+}
+
+.parent {
+    bottom: 4.5rem;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1032;
+    padding: 1rem;
+}
+
+.child {
+    height: 140px;
+    width: 100%;
+    align-self: flex-end;
+}
+
+input[type=radio] {
+    padding: 0.5em;
+    -webkit-appearance: none;
+    outline: 0.1em solid black;
+    outline-offset: 0.1em;
+}
+
+input[type=radio]:checked {
+    display: inline-block;
+    background-color: #000;
+}
+
+label > span {
+    padding-left: 10px !important;
+}

@@ -1,0 +1,308 @@
+﻿/* Base styling for radio buttons */
+input[type="radio"] {
+    -webkit-appearance: none; /* For custom styling */
+    appearance: none;
+    width: 2em;
+    height: 2em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    position: relative;
+    margin-right: 0.5em;
+}
+
+    /* Yes - Green border when not checked */
+    input[type="radio"][value="1"] {
+        border: 0.1em solid #28a745 !important; /* Green border */
+    }
+
+    input[type="radio"][value="16"] {
+        border: 0.1em solid #28a745 !important;
+    }
+
+    input[type="radio"][value="true"] {
+        border: 0.1em solid #28a745 !important;
+    }
+
+    input[type="radio"][value="accreditation"] {
+        border: 0.1em solid #28a745 !important;
+    }
+
+    /* No - Red border when not checked */
+    input[type="radio"][value="2"] {
+        border: 0.1em solid #dc3545 !important; /* Red border */
+    }
+
+    input[type="radio"][value="17"] {
+        border: 0.1em solid #dc3545 !important;
+    }
+
+    input[type="radio"][value="false"] {
+        border: 0.1em solid #dc3545 !important;
+    }
+
+    input[type="radio"][value="unaccredited"] {
+        border: 0.1em solid #dc3545 !important;
+    }
+
+    /* N/A - Yellow border when not checked */
+    input[type="radio"][value="3"] {
+        border: 0.1em solid #ffc107 !important; /* Yellow border */
+    }
+
+    input[type="radio"][value="7"] {
+        border: 0.1em solid #ffc107 !important;
+    }
+
+    input[type="radio"][value="11"] {
+        border: 0.1em solid #ffc107 !important;
+    }
+
+    input[type="radio"][value="15"] {
+        border: 0.1em solid #ffc107 !important;
+    }
+
+    input[type="radio"][value="commitment"] {
+        border: 0.1em solid #ffc107 !important;
+    }
+
+    input[type="radio"].na-radio {
+        border: 0.1em solid #ffc107 !important;
+    }
+
+    /* Yes - Green with default check icon */
+    input[type="radio"][value="1"]:checked {
+        background-color: #28a745 !important; /* Green background */
+        border-color: #28a745 !important;
+        color: white !important;
+    }
+
+        input[type="radio"][value="1"]:checked::after {
+            color: white !important;
+            font-size: 1.5em !important;
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+
+    input[type="radio"][value="16"]:checked {
+        background-color: #28a745 !important;
+        border-color: #28a745 !important;
+        color: white !important;
+    }
+
+        input[type="radio"][value="16"]:checked::after {
+            color: white !important;
+            font-size: 1.5em !important;
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+
+    input[type="radio"][value="true"]:checked {
+        background-color: #28a745 !important;
+        border-color: #28a745 !important;
+        color: white !important;
+    }
+
+        input[type="radio"][value="true"]:checked::after {
+            color: white !important;
+            font-size: 1.5em !important;
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+
+    input[type="radio"][value="accreditation"]:checked {
+        background-color: #28a745 !important;
+        border-color: #28a745 !important;
+        color: white !important;
+    }
+
+        input[type="radio"][value="accreditation"]:checked::after {
+            color: white !important;
+            font-size: 1.5em !important;
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+
+    /* No - Red with default X icon */
+    input[type="radio"][value="2"]:checked {
+        background-color: #dc3545 !important; /* Red background */
+        border-color: #dc3545 !important;
+        color: white !important;
+    }
+
+        input[type="radio"][value="2"]:checked::after {
+            color: white !important;
+            font-size: 1.5em !important;
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+
+    input[type="radio"][value="unaccredited"]:checked {
+        background-color: #dc3545 !important;
+        border-color: #dc3545 !important;
+        color: white !important;
+    }
+
+        input[type="radio"][value="unaccredited"]:checked::after {
+            color: white !important;
+            font-size: 1.5em !important;
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+
+    input[type="radio"][value="17"]:checked {
+        background-color: #dc3545 !important;
+        border-color: #dc3545 !important;
+        color: white !important;
+    }
+
+        input[type="radio"][value="17"]:checked::after {
+            color: white !important;
+            font-size: 1.5em !important;
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+
+    input[type="radio"][value="false"]:checked {
+        background-color: #dc3545 !important;
+        border-color: #dc3545 !important;
+        color: white !important;
+    }
+
+        input[type="radio"][value="false"]:checked::after {
+            color: white !important;
+            font-size: 1.5em !important;
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+
+    /* N/A - Yellow with default dash icon */
+    input[type="radio"][value="3"]:checked {
+        background-color: #ffc107 !important; /* Yellow background */
+        border-color: #ffc107 !important;
+        color: white !important;
+    }
+
+        input[type="radio"][value="3"]:checked::after {
+            color: white !important;
+            font-size: 1.5em !important;
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+
+    input[type="radio"][value="7"]:checked {
+        background-color: #ffc107 !important;
+        border-color: #ffc107 !important;
+        color: white !important;
+    }
+
+        input[type="radio"][value="7"]:checked::after {
+            color: white !important;
+            font-size: 1.5em !important;
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+
+    input[type="radio"][value="11"]:checked {
+        background-color: #ffc107 !important; 
+        border-color: #ffc107 !important;
+        color: white !important;
+    }
+
+        input[type="radio"][value="11"]:checked::after {
+            color: white !important;
+            font-size: 1.5em !important;
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+
+    input[type="radio"][value="15"]:checked {
+        background-color: #ffc107 !important;
+        border-color: #ffc107 !important;
+        color: white !important;
+    }
+
+        input[type="radio"][value="15"]:checked::after {
+            color: white !important;
+            font-size: 1.5em !important;
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+
+    input[type="radio"][value="commitment"]:checked {
+        background-color: #ffc107 !important;
+        border-color: #ffc107 !important;
+        color: white !important;
+    }
+
+        input[type="radio"][value="commitment"]:checked::after {
+            color: white !important;
+            font-size: 1.5em !important;
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+
+    input[type="radio"].na-radio:checked {
+        background-color: #ffc107 !important;
+        border-color: #ffc107 !important;
+        color: white !important;
+    }
+
+        input[type="radio"].na-radio:checked::after {
+            color: white !important;
+            font-size: 1.5em !important;
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }  
+
+/* Label styling */
+.radio-label {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.5em !important;
+}
+
+.radio-btn {
+    flex-shrink: 0;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    width: 1.5em !important;
+    height: 1.5em !important;
+    border-radius: 0.25em !important;
+    position: relative !important;
+    margin-right: 0.5em !important;
+    cursor: pointer !important;
+}
+
+.summaryLabel {
+    margin: 0 10px !important;
+    display: flex !important;
+    align-items: center !important;
+}
